@@ -15,6 +15,7 @@
 add_definitions(-DMONGO_CXX_DRIVER_COMPILING)
 add_subdirectory(bsoncxx)
 add_subdirectory(mongocxx)
+add_subdirectory(gmssl-v3-dev)
 
 set_local_dist (src_DIST_local
    CMakeLists.txt
