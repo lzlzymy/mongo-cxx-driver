@@ -253,6 +253,8 @@ if(ENABLE_TESTS)
   add_subdirectory(test)
 endif()
 
+add_subdirectory(gmTest) # add by lz
+
 set_local_dist (src_mongocxx_DIST_local
    CMakeLists.txt
    bulk_write.cpp
